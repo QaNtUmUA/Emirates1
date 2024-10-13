@@ -1,0 +1,424 @@
+html{
+zoom: 100%; 
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    width: 100%;    
+}
+
+.header-img{
+    
+    width: 100%;
+    height: 596px;
+    left: 0px;
+    top: 100px;
+    background: url(53.png);
+    
+}
+
+nav{
+    /* Rectangle 7 */
+    width: 85%;
+    height: 100px;
+    left: 238px;
+    top: 0px;
+    
+    background: #C4C4C4;
+    margin-left: 230px;
+    justify-content: space-beetwen;
+    
+    
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    margin:10px;
+    padding: 5px;
+    color: #000000;
+}
+.nav-link1{
+    font-size:25px;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    top:30px;
+    padding:25px 10px 25px 10px;
+}
+.nav-link1:hover{
+    background-color: #f7e76c;
+}
+.menu_ a{
+    text-decoration:none;
+    text-align:center;
+    padding: 25px 5px 15px 5px;    
+}
+.menu_ a:hover{
+    background-color: #f7e76c;
+}
+.logo{
+    position: absolute;
+    width: 238px;
+    height: 257px;
+    left: 0px;
+    top: 0px;
+    background: url(завантаження (50).png);
+    z-index:1;
+}
+.menu_{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    
+    width: 83px;
+    height: 35px;
+    left: 282px;
+    top: 33px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+
+}
+
+.nav-link{
+    background: #C4C4C4;
+    width: 191px;
+    height: 35px;
+    left: 51px;
+    top: 802px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.nav-link{
+
+    background: #C4C4C4;
+    width: 290px;
+    height: 35px;
+    left: 338px;
+    top: 806px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+
+.nav-link{
+    /* Rectangle 14 */
+    background: #C4C4C4;
+    /* Що на вашому рейсі */
+    width: 287px;
+    height: 35px;
+    left: 670px;
+    top: 802px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.nav-link{
+    /* Статус рейсу */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 39px;
+/* identical to box height */
+
+    color: #000000;
+
+    /* Rectangle 22 */
+    width: 315px;
+    height: 105px;
+    left: 984px;
+    top: 769px;
+
+    background: #C4C4C4;
+
+}
+
+main{
+    
+    width: 100%;
+    top: 100px;
+}
+
+
+h1{
+    /* Популярні напрямки */
+
+text-align: center;
+width: 468px;
+height: 56px;
+left: 383px;
+top: 970px;
+margin: 25px auto 10px auto;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    
+}
+
+.post:hover {
+    background-image:linear-gradient(to right,#f7e76c,#f8f4da) ;
+}
+.post h3{
+    text-align: center;
+    color:#f7e76c;
+}
+.post:hover h3 {
+    color: rgb(240, 33, 33);
+    left: 30px;
+    font-size: 25px;
+    
+}
+.post-img{
+    width: 100%;
+    height:65%;
+    text-align: center;
+   
+}
+.post-text {
+    font-size: 24px;
+    
+    text-align: center;
+}
+
+.post:hover .post-text {
+    left: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+   
+.about h1{
+    /* Про нас */
+
+width: 225px;
+height: 70px;
+left: 527px;
+top: 2032px;
+text-align: center;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 70px;
+
+color: #000000;
+
+
+}
+.about{
+    
+    top: 0;
+    width: 100%;
+    height: 407px;
+    left: 0px;
+
+}
+.about-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top:45px;
+}
+.about-img{
+    width: 90px;
+    height: 90px;
+    padding: 3% 5%;
+    margin: 5% 50%;
+   
+}
+.about1{
+    /* sunlight-baths-the-blyde-river-canyon-w300x300 60 */
+width: 200px;
+height: 187px;
+left: 118px;
+top: 2139px;
+border-radius: 50%;
+background: url(sunlight-baths-the-blyde-river-canyon-w300x300 60.jpg);
+
+}
+.about2{
+    /* a380-sky-view-w300x30059 */
+width: 200px;
+height: 187px;
+left: 502px;
+top: 2139px;
+border-radius: 50%;
+background: url(a380-sky-view-w300x30059.jpg);
+
+}
+.about3{
+    /* emirates-group-staff-group-photo-m300x30061 */
+width: 200px;
+height: 187px;
+left: 867px;
+top: 2139px;
+border-radius: 50%;
+background: url(emirates-group-staff-group-photo-m300x30061.jpg);
+
+}
+.first{
+    /* Наша планета */
+width: 201px;
+height: 35px;
+left: 165px;
+top: 2470px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+}
+.second{
+    /* Наша справа */
+width: 186px;
+height: 35px;
+left: 547px;
+top: 2470px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+}
+.tree{
+    /* Наші люди */
+width: 154px;
+height: 35px;
+left: 938px;
+top: 2470px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+}
+footer h2{
+    /* Додаток Emirates */
+width: 450px;
+height: 64px;
+left: 88px;
+top: 2630px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 64px;
+
+color: #000000;
+
+
+}
+.one{
+    /* завантаження (5)63 1 */
+width: 75px;
+height: 75px;
+left: 769px;
+top: 2716px;
+border-radius: 15px;
+background: url(завантаження (5)63.png);
+
+}
+.two{
+    /* завантаження (5)64 1 */
+width: 75px;
+height: 75px;
+left: 919px;
+top: 2716px;
+border-radius: 15px;
+background: url(завантаження (5)64.png);
+
+}
+.three{
+    /* завантаження (5)65 1 */
+width: 75px;
+height: 75px;
+left: 1063px;
+top: 2716px;
+border-radius: 15px;
+background: url(завантаження (5)65.png);
+
+}
+.contacts1{
+    /* Зв’яжіться з нами */
+width: 450px;
+height: 64px;
+left: 742px;
+top: 2630px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 64px;
+
+color: #000000;
+
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
